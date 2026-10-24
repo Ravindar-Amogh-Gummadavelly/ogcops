@@ -157,13 +157,14 @@ import eventVenueMap from './event/venue-map';
 import eventTicketCta from './event/ticket-cta';
 import eventMultiSpeaker from './event/multi-speaker';
 import eventAgenda from './event/agenda';
+import eventOfficeHours from './event/office-hours';
 import eventWinners from './event/winners';
 import eventCallForSpeakers from './event/call-for-speakers';
 
 [
   eventConference, eventMeetup, eventWebinar, eventWorkshop, eventHackathon,
   eventSpeakerSpotlight, eventCountdown, eventVenueMap, eventTicketCta, eventMultiSpeaker,
-  eventAgenda, eventWinners,
+  eventAgenda, eventOfficeHours, eventWinners,
   eventCallForSpeakers,
 ].forEach(registerTemplate);
 
