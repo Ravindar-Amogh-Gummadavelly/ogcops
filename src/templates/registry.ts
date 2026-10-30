@@ -150,6 +150,7 @@ import githubMilestone from './github/milestone';
 import githubSponsorsGoal from './github/sponsors-goal';
 import githubSecurityAdvisory from './github/security-advisory';
 import githubMaintainersWanted from './github/maintainers-wanted';
+import githubPackageCard from './github/package-card';
 
 [
   githubRepoCard, githubContributionGraph, githubReadmeHero, githubReleaseNotes,
@@ -162,6 +163,7 @@ import githubMaintainersWanted from './github/maintainers-wanted';
   githubSponsorsGoal,
   githubSecurityAdvisory,
   githubMaintainersWanted,
+  githubPackageCard,
 ].forEach(registerTemplate);
 
 // Event
