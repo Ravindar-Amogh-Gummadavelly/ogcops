@@ -57,6 +57,7 @@ import blogRetroTerminal from './blog/retro-terminal';
 import blogSeriesPart from './blog/series-part';
 import blogSummaryCard from './blog/summary-card';
 import blogTableOfContents from './blog/table-of-contents';
+import blogBenchmark from './blog/benchmark';
 import blogUpdatedPost from './blog/updated-post';
 
 [
@@ -75,6 +76,7 @@ import blogUpdatedPost from './blog/updated-post';
   blogSeriesPart,
   blogSummaryCard,
   blogTableOfContents,
+  blogBenchmark,
   blogUpdatedPost,
 ].forEach(registerTemplate);
 
