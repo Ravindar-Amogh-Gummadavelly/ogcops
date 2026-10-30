@@ -203,11 +203,12 @@ import podcastAudiogram from './podcast/audiogram';
 import podcastShowNotes from './podcast/show-notes';
 import podcastListenOn from './podcast/listen-on';
 import podcastTopEpisodes from './podcast/top-episodes';
+import podcastLiveRecording from './podcast/live-recording';
 
 [
   podcastEpisodeCard, podcastWaveform, podcastGuestSpotlight, podcastConversation, podcastSeriesBanner,
   podcastMinimalPlayer, podcastVideoThumbnail, podcastAudiogram, podcastShowNotes, podcastTopEpisodes,
-  podcastListenOn,
+  podcastListenOn, podcastLiveRecording,
 ].forEach(registerTemplate);
 
 // Developer
